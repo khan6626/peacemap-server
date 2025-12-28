@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-import 'dart:io' show Platform;
+
 import 'dart:async';
 import 'package:intl/intl.dart';
 import 'package:fl_chart/fl_chart.dart';
@@ -72,11 +72,8 @@ class _GammaScreenState extends State<GammaScreen>
       if (_customIp.startsWith("http")) return _customIp;
       return 'http://$_customIp:5000';
     }
-    if (Platform.isAndroid) {
-      return 'http://10.0.2.2:5000';
-    } else {
-      return 'http://127.0.0.1:5000';
-    }
+    // Default to US Cloud Server
+    return 'http://199.244.48.164:5000';
   }
 
   @override

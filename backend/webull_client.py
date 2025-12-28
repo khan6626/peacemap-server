@@ -22,6 +22,21 @@ class WebullClient:
         self.access_token = None
         self.refresh_token = None
         self.is_logged_in = False
+        
+        # PROXY SETUP
+        try:
+            if os.path.exists('magic_proxy.txt'):
+                with open('magic_proxy.txt', 'r') as f:
+                    proxy = f.read().strip()
+                if proxy:
+                    print(f"Using Proxy: {proxy}")
+                    self.wb._session.proxies.update({
+                        'http': proxy,
+                        'https': proxy
+                    })
+        except Exception as e:
+            print(f"Proxy Config Error: {e}")
+
         self._load_session()
 
     def _load_session(self):
