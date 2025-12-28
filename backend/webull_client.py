@@ -10,11 +10,13 @@ class WebullClient:
         self.wb = webull()
         # Patch headers to avoid "Illegal Client" 403 error
         self.wb._session.headers.update({
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "platform": "web",
+            "User-Agent": "Webull/4.15.0 (iPhone; iOS 16.5; Scale/3.00)",
+            "platform": "ios",
             "app": "global",
-            "ver": "4.0.0",
-            "device-type": "Web"
+            "ver": "4.15.0",
+            "device-type": "iPhone",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Accept-Language": "en-US,en;q=0.9"
         })
         self.token_file = token_file
         self.access_token = None

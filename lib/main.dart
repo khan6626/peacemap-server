@@ -61,8 +61,7 @@ class _GammaScreenState extends State<GammaScreen>
   );
 
   // Server Settings
-  String _customIp =
-      "https://unplenteous-gracelyn-nonoligarchical.ngrok-free.dev";
+  String _customIp = "";
   String _dataSource = "yahoo"; // 'yahoo' or 'webull'
 
   // Chart Mode
