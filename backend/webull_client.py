@@ -86,6 +86,18 @@ class WebullClient:
             elif 'msg' in res and 'mfa' in res.get('msg', '').lower():
                  return {'success': False, 'mfa_required': True}
             else:
+                # FALLBACK TO SELENIUM
+                # If normal login failed (likely blocked), try the headless bypass
+                print("API Login failed. Attempting Selenium Bypass...")
+                try:
+                    from bypass_login import run_headless_login
+                    if run_headless_login(username, password, mfa):
+                         # Reload session
+                         self._load_session()
+                         return {'success': True}
+                except Exception as e:
+                    print(f"Selenium Bypass Failed: {e}")
+
                 return {'success': False, 'error': res.get('msg', 'Unknown login error')}
         except Exception as e:
             # DEBUG: Log exception

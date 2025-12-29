@@ -5,3 +5,5 @@ numpy
 scipy
 webull
 gunicorn
+selenium
+webdriver-manager
