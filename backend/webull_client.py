@@ -101,17 +101,21 @@ class WebullClient:
                 return {'success': False, 'error': res.get('msg', 'Unknown login error')}
         except Exception as e:
             # DEBUG: Log exception
+            print(f"Login Exception: {e}")
+            
+            # FORCE SELENIUM FALLBACK ON ANY ERROR
+            print("Login failed/blocked. Attempting Selenium Bypass...")
             try:
-                with open('login_debug.log', 'w') as f:
-                    f.write(str(e))
-            except:
-                pass
-            
+                from bypass_login import run_headless_login
+                if run_headless_login(username, password, mfa):
+                        self._load_session()
+                        return {'success': True}
+            except Exception as se:
+                print(f"Selenium Bypass Failed: {se}")
+
             error_msg = str(e)
-            
-            # Expanded Debugging for Blocked Requests
             if "Expecting value" in error_msg:
-                error_msg = "Server IP Blocked (503). You MUST use a DESKTOP VPN app (not a browser extension) connected to USA."
+                error_msg = "Server IP Blocked (503). Running Selenium Bypass..."
             
             return {'success': False, 'error': error_msg}
 
