@@ -1,0 +1,539 @@
+[
+  {
+    "strikePrice": "500",
+    "call": {
+      "open": "186.82",
+      "high": "189.17",
+      "low": "186.82",
+      "strikePrice": "500",
+      "isStdSettle": 1,
+      "preClose": "187.36",
+      "openInterest": 35,
+      "volume": "35",
+      "latestPriceVol": "10",
+      "delta": "0.9999",
+      "vega": "0.0000",
+      "impVol": "7.2466",
+      "gamma": "0.0000",
+      "theta": "-0.0006",
+      "rho": "0.0000",
+      "close": "189.17",
+      "change": "1.81",
+      "changeRatio": "0.0097",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057085677,
+      "belongTickerId": 913243251,
+      "openIntChange": 29,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "call",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230C00500000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "188.98",
+          "volume": "3",
+          "quoteEx": "XCBO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "186.26",
+          "volume": "4",
+          "quoteEx": "MCRY"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.64",
+      "iv5": "0.58"
+    },
+    "put": {
+      "open": "0.01",
+      "high": "0.01",
+      "low": "0.01",
+      "strikePrice": "500",
+      "isStdSettle": 1,
+      "preClose": "0.01",
+      "openInterest": 108,
+      "volume": "3",
+      "latestPriceVol": "2",
+      "delta": "-0.0001",
+      "vega": "0.0000",
+      "impVol": "7.2466",
+      "gamma": "0.0000",
+      "theta": "-0.0006",
+      "rho": "0.0000",
+      "close": "0.01",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057052112,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "put",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230P00500000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "0.01",
+          "volume": "4199",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "0.00",
+          "volume": "0",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.64",
+      "iv5": "0.58"
+    }
+  },
+  {
+    "strikePrice": "505",
+    "call": {
+      "strikePrice": "505",
+      "isStdSettle": 1,
+      "openInterest": 0,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "0.9999",
+      "vega": "0.0000",
+      "impVol": "7.0776",
+      "gamma": "0.0000",
+      "theta": "-0.0006",
+      "rho": "0.0000",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057085762,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "call",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230C00505000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "183.91",
+          "volume": "25",
+          "quoteEx": "XCBO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "181.25",
+          "volume": "10",
+          "quoteEx": "C2OX"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.62",
+      "iv5": "0.56"
+    },
+    "put": {
+      "strikePrice": "505",
+      "isStdSettle": 1,
+      "preClose": "0.01",
+      "openInterest": 171,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "-0.0001",
+      "vega": "0.0000",
+      "impVol": "7.0776",
+      "gamma": "0.0000",
+      "theta": "-0.0006",
+      "rho": "0.0000",
+      "close": "0.01",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057052199,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "put",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230P00505000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "0.01",
+          "volume": "4199",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "0.00",
+          "volume": "0",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.62",
+      "iv5": "0.56"
+    }
+  },
+  {
+    "strikePrice": "510",
+    "call": {
+      "strikePrice": "510",
+      "isStdSettle": 1,
+      "preClose": "178.12",
+      "openInterest": 7,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "0.9999",
+      "vega": "0.0000",
+      "impVol": "6.9075",
+      "gamma": "0.0000",
+      "theta": "-0.0007",
+      "rho": "0.0000",
+      "close": "178.12",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057083078,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "call",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230C00510000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "178.93",
+          "volume": "4",
+          "quoteEx": "XCBO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "176.26",
+          "volume": "10",
+          "quoteEx": "GMNI"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.61",
+      "iv5": "0.55"
+    },
+    "put": {
+      "strikePrice": "510",
+      "isStdSettle": 1,
+      "preClose": "0.01",
+      "openInterest": 127,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "-0.0001",
+      "vega": "0.0000",
+      "impVol": "6.9075",
+      "gamma": "0.0000",
+      "theta": "-0.0007",
+      "rho": "0.0000",
+      "close": "0.01",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057052835,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "put",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230P00510000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "0.01",
+          "volume": "4199",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "0.00",
+          "volume": "0",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.61",
+      "iv5": "0.55"
+    }
+  },
+  {
+    "strikePrice": "515",
+    "call": {
+      "strikePrice": "515",
+      "isStdSettle": 1,
+      "openInterest": 0,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "0.9999",
+      "vega": "0.0000",
+      "impVol": "6.7364",
+      "gamma": "0.0000",
+      "theta": "-0.0008",
+      "rho": "0.0000",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057083167,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "call",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230C00515000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "173.98",
+          "volume": "1",
+          "quoteEx": "XCBO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "171.26",
+          "volume": "10",
+          "quoteEx": "GMNI"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.59",
+      "iv5": "0.53"
+    },
+    "put": {
+      "strikePrice": "515",
+      "isStdSettle": 1,
+      "preClose": "0.06",
+      "openInterest": 20,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "-0.0001",
+      "vega": "0.0000",
+      "impVol": "6.7364",
+      "gamma": "0.0000",
+      "theta": "-0.0008",
+      "rho": "0.0000",
+      "close": "0.06",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057086167,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "put",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230P00515000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "0.01",
+          "volume": "4199",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "0.00",
+          "volume": "0",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.59",
+      "iv5": "0.53"
+    }
+  },
+  {
+    "strikePrice": "520",
+    "call": {
+      "strikePrice": "520",
+      "isStdSettle": 1,
+      "preClose": "168.07",
+      "openInterest": 5,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "0.9999",
+      "vega": "0.0000",
+      "impVol": "6.5642",
+      "gamma": "0.0000",
+      "theta": "-0.0009",
+      "rho": "0.0000",
+      "close": "168.07",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057050552,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "call",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230C00520000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "168.93",
+          "volume": "1",
+          "quoteEx": "XCBO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "166.26",
+          "volume": "10",
+          "quoteEx": "GMNI"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.58",
+      "iv5": "0.52"
+    },
+    "put": {
+      "strikePrice": "520",
+      "isStdSettle": 1,
+      "preClose": "0.04",
+      "openInterest": 294,
+      "volume": "0",
+      "latestPriceVol": "0",
+      "delta": "-0.0001",
+      "vega": "0.0000",
+      "impVol": "6.5642",
+      "gamma": "0.0000",
+      "theta": "-0.0009",
+      "rho": "0.0000",
+      "close": "0.04",
+      "change": "0",
+      "changeRatio": "0.0000",
+      "expireDate": "2025-12-30",
+      "tickerId": 1057050213,
+      "belongTickerId": 913243251,
+      "openIntChange": 0,
+      "activeLevel": 50,
+      "cycle": 2,
+      "weekly": 1,
+      "executionType": "A",
+      "direction": "put",
+      "derivativeStatus": 0,
+      "currencyId": 247,
+      "regionId": 6,
+      "exchangeId": 189,
+      "exchangeCode": "OPRA",
+      "disExchangeCode": "OPRA",
+      "symbol": "SPY251230P00520000",
+      "unSymbol": "SPY",
+      "askList": [
+        {
+          "price": "0.01",
+          "volume": "4199",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "bidList": [
+        {
+          "price": "0.00",
+          "volume": "0",
+          "quoteEx": "ARCO"
+        }
+      ],
+      "quoteMultiplier": 100,
+      "quoteLotSize": 100,
+      "hiv": "0.58",
+      "iv5": "0.52"
+    }
+  }
+]
